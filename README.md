@@ -99,7 +99,7 @@ Aveces podemos llegar a necesitar utilizar valores que se encuentran en otras ho
 #### SUMAR.SI()
 
 
-Sumar.Si tiene un rango , un criterio y un rango_suma
+``SUMAR.SI`` tiene un ``rango`` , un ``criterio`` y un ``rango_suma``
 
 | Nombre    |                                                        Descripción                                                   |
 |-----------|----------------------------------------------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ Mas adelante se detallara esta función.
 #### SUMAR.SI.CONJUNTO()
 
 
-Sumar.Si.Conjunto contiene rango_suma , rango_criterios1 criterios1 y asi infinitamente. Sirve muchísimo si se necesita realizar lo mismo que un Sumar.Si pero varias veces y con valores y condiciones distintas.
+``SUMAR.SI.CONJUNTO`` contiene ``rango_suma`` , ``rango_criterios1``, ``criterios1`` y asi infinitamente. Sirve muchísimo si se necesita realizar lo mismo que un ``SUMAR.SI`` pero varias veces y con valores y condiciones distintas.
 
 | Nombre          |                                          Descripción                                         |
 |-----------------|----------------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Sumar.Si.Conjunto contiene rango_suma , rango_criterios1 criterios1 y asi infini
 |Criterios1       |Son las condiciones que se requieren para hacer las pertinentes sumas en los rangos anteriores|
 
 
-*Estos dos últimos procesos se pueden repetir infinitamente.
+Nota : Estos dos últimos procesos se pueden repetir infinitamente.
 
 
 ---
