@@ -72,34 +72,29 @@ Aveces podemos llegar a necesitar utilizar valores que se encuentran en otras ho
 
 #### SUMA()
 
-| =SUMA(3;2)   | Suma 3 y 2 | 5 |
-|--------------|------------|---|
+| Función                 | Descripción                                       | Resultado |
+|-------------------------|---------------------------------------------------|-----------|
+| =SUMA(3;2)              | Suma 3 y 2                                        | 5         |
+| =SUMA(“5”;15;VERDADERO) | Suma 15 y 1                                       | 16        |
+| =SUMA(A2:A4)            | Suma los  valores contenidos entre esas dos celdas| X         |
 
-=SUMA(3;2) Suma 3 y 2 (5)
-=SUMA(“5”;15;VERDADERO) Suma 5 , 15 y 1
-=SUMA(A2:A4) Suma los  valores contenidos entre esas dos celdas
-
-Sumar.Si
+#### SUMAR.SI()
 
 Sumar.Si tiene un rango , un criterio y un rango_suma
 
-el rango : son los valores que se desean evaluar , pueden ser (como dicen el nombre) rangos.
-
-el criterio :  el criterio es una condición que debe cumplir el dato que este contenido en el rango.
-
-rango_suma : El rango_suma son las celdas que se van a sumar en caso de que el valor contenido en el rango cumple con el criterio.
+|Rango     | Son los valores que se desean evaluar , pueden ser (como dicen el nombre) rangos                                     |
+|Criterio  |  El criterio es una condición que debe cumplir el dato que este contenido en el rango                                |
+|Rango_Suma | El rango_suma son las celdas que se van a sumar en caso de que el valor contenido en el rango cumple con el criterio|
 
 Mas adelante se detallara esta función.
 
-Sumar.Si.Conjunto
+#### SUMAR.SI.CONJUNTO
 
 Sumar.Si.Conjunto contiene rango_suma , rango_criterios1 criterios1 y asi infinitamente. Sirve muchísimo si se necesita realizar lo mismo que un Sumar.Si pero varias veces y con valores y condiciones distintas.
 
-rango_suma : Es el rango de los valores que se van a sumar si se cumplen el resto de condiciones asociadas.
-
-rango_criterios1 : Es el primer rango en el que se evaluaran las condiciones
-
-criterios1 : Son las condiciones que se requieren para hacer las pertinentes sumas en los rangos anteriores.
+|Rango_suma Es    |el rango de los valores que se van a sumar si se cumplen el resto de condiciones asociadas    |
+|Rango_criterios1 |Es el primer rango en el que se evaluaran las condiciones                                     |
+|Criterios1       |Son las condiciones que se requieren para hacer las pertinentes sumas en los rangos anteriores|
 
 *Estos dos últimos procesos se pueden repetir infinitamente.
 
