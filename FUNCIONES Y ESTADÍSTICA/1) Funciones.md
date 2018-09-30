@@ -57,7 +57,7 @@ Lo mismo que antes solo que ahora como condición añadimos el ``<4``.
 
 Para poder obtener este valor volvemos a utilizar la herramienta ``CONTAR.SI()`` y utilizamos la misma condición anterior , solo que ahora , utilizamos el promedio automatico como rango.
 
-**Formula: ``CONTAR.SI(H7:H12;"<4")``
+**Formula:** ``CONTAR.SI(H7:H12;"<4")``
 
 **Resultado : 1**
 
@@ -66,7 +66,7 @@ Para poder obtener este valor volvemos a utilizar la herramienta ``CONTAR.SI()``
 
 Repetimos el caso anterior solo que únicamente cambiamos la condición a ``>4`` para asegurarnos que sean alumnos aprobados.
 
-**Formula: ``CONTAR.SI(H7:H12;">4")``
+**Formula:** ``CONTAR.SI(H7:H12;">4")``
 
 **Resultado: 5**
 
@@ -74,7 +74,7 @@ Repetimos el caso anterior solo que únicamente cambiamos la condición a ``>4``
 
 Utilizamos la función ``PROMEDIO.SI()``. Para promediar el rango seleccionado y añadir un condición , en estecaso ``>=4``.
 
-**Formula: ``=PROMEDIO.SI(H7:H12;">=4")``
+**Formula:** ``=PROMEDIO.SI(H7:H12;">=4")``
 
 **Resultado: 4,96**
 
@@ -83,7 +83,7 @@ Utilizamos la función ``PROMEDIO.SI()``. Para promediar el rango seleccionado y
 
 Para poder sacar este promedio dependemos una condición (en este caso el sexo de los estudiantes) para ello utlizamos ``PROMEDIO.SI()`` y añadimos el rango donde se aplicara la condición , la condición en si misma y finalmente el rango que se sumara si se cumple la condición.
 
-**Formula: ``=PROMEDIO.SI(C7:C12;"F";H7:H12)``
+**Formula:** ``=PROMEDIO.SI(C7:C12;"F";H7:H12)``
 
 **Resultado: 5,5**
 
@@ -119,7 +119,7 @@ Hacemos uso de ``PROMEDIO.SI()`` , en rango ponemos donde evaluaremos el criteri
 
 
 
-**Formula: ``CONTAR.SI.CONJUNTO(C7:C12;"M";D7:D12;">4";F7:F12;">4")``
+**Formula:** ``CONTAR.SI.CONJUNTO(C7:C12;"M";D7:D12;">4";F7:F12;">4")``
 
 **Resultado: 2**
 
